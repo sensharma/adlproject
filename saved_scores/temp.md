@@ -1,0 +1,1 @@
+Here as a placeholder to avoid problems with git with empty folders.

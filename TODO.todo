@@ -1,0 +1,30 @@
+Reproduction:
+    Get PyTorch Model to work:
+        ✔ Get current PyTorch model to work @done (30/10/2020, 13:32:03)
+        ✔ Create keras to PyTorch data converter (Done at the point of feeding PyTorch) @done (30/10/2020, 13:51:35)
+        ☐ Get my keras model (replication of DeepLIFT model without pooling) to work with DeepLIFT
+        ☐ Build keras model with pooling - same as PyTorch
+        ☐ Figure out how to replicate DeepLIFT CNN without pooling in PyTorch
+        ☐ Figure out diff between DeepLIFT CNN (with pooling) vs with pooling
+        ☐ Get LIME to work?
+    DeepSHAP for the main experiment:
+        ✔ In exp_1: Get DeepSHAP to work with PyTorch model and keras data @done (30/10/2020, 14:14:13)
+        ☐ In exp_2: Get DeepSHAP to work with PyTorch model and keras data
+    Check experiment:
+        ☐ Does change from PyTorch to keras model affect KernelSHAP (effect of pooling?)
+    Fashion MNIST:
+        ☐ Repeat exp_1
+        ☐ Repeat exp_2
+    Statistical studies:
+        ☐ ANOVA on MNIST
+        ☐ ANOVA on Fashion MNIST
+Adversarial:
+    Center-mass attack:
+        ☐ Show problem with underflow
+    FGSM attack:
+        ☐ Check FGSM attack on MNIST
+        ☐ Check FGSM attack on Fashion MNIST
+        ☐ Check FGSM attack on something else:
+Transfer Learning:
+    ☐ Some other network/dataset?
+    
