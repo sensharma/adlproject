@@ -10,8 +10,7 @@ from keras import backend as K
 import deeplift
 from deeplift.layers import NonlinearMxtsMode
 from deeplift.conversion import kerasapi_conversion as kc
-from deeplift.util import compile_func
-from deeplift.util import get_integrated_gradients_function
+from deeplift.util import compile_func, get_integrated_gradients_function
 
 import shap
 
@@ -31,9 +30,9 @@ import data.keras_dataloaders as kdl
 path = os.path.join(os.path.dirname(__file__), 'saved_models')
 
 # loading keras cnn for DeepLIFT and KernelSHAP
-# saved_model_file = 'keras2_mnist_cnn_allconv.h5'
-saved_model_file = os.path.join(path, 'keras_deeplift_model')
-keras_model = keras.models.load_model(saved_model_file)
+saved_model_file = 'keras2_mnist_cnn_allconv.h5'
+# saved_model_file = 'keras_deeplift_model'
+keras_model = keras.models.load_model(f'{path}/{saved_model_file}')
 keras_model.summary()
 
 # loading pytorch cnn model for DeepSHAP

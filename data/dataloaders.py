@@ -5,7 +5,8 @@ import torchtext as tt
 
 import os
 
-TORCH_DATAPATH = os.path.join(os.path.dirname(__file__))
+# TORCH_DATAPATH = os.path.join(os.path.dirname(__file__)) 
+TORCH_DATAPATH = os.getcwd() 
 
 use_cuda = torch.cuda.is_available()
 device = "cuda" if use_cuda else "cpu"
