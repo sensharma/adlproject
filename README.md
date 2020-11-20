@@ -1,19 +1,11 @@
-# ADL_project
-DD2412-Project-Group2
+The experiments are run in Colab Notebooks.
 
-Python (3.7) Libraries:
+The files are:
 
-* pytorch                   1.6.0
-* torchvision               0.7.0
-* torchtext                 0.7.0
-* numpy                     1.19.1
-* matplotlib                3.3.1
-* shap                      0.36.0
-* captum                    0.2.0
-* tensorflow                1.5.0
-* keras                     2.3.1
-
-To run:
-* Change "DATAPATH" in data.py to specify location where data is downloaded on machine
-* Run individual experiment files from **project root**
-  * test_exp.py: First test experiment 
+1. adlproj_pytorch_base_cnns.ipynb: Standard CNN models on MNIST and FashionMNIST trained 
+in this. 
+2. adlproj_base_exp.ipynb: Reproducibility experiment
+3. adlproj_transf_lrn.ipynb: Training ResNet for transfer learning
+4. adlproj_adv_attack.ipynb: Conducting and saving adversarial attack examples
+5. adlproj_captum_exps.ipynb: Using Captum to score adversarial attacks and attempts 
+applied on scoring transfer learning
