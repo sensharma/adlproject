@@ -9,3 +9,5 @@ in this.
 4. adlproj_adv_attack.ipynb: Conducting and saving adversarial attack examples
 5. adlproj_captum_exps.ipynb: Using Captum to score adversarial attacks and attempts 
 applied on scoring transfer learning
+
+Additional saved models, plots and scores in respective directories.
